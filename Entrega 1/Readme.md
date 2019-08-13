@@ -18,7 +18,7 @@ Si has visto alguna vez el código HTML de una página web, habrás visto que se
 ```
 Donde:
  - **nombreTag** es el nombre del tag
- - Los atributos (**[claveAtributo=”valorAtributo”]**) son una lista de tuplas clave/valor, de forma que solo pude haber un valor asociado a una clave para un tag determinado. Un tag puede tener de  $0..n$ atributos. Los valores del atributo van siempre entre comillas dobles.
+ - Los atributos (**[claveAtributo=”valorAtributo”]**) son una lista de tuplas clave/valor, de forma que solo pude haber un valor asociado a una clave para un tag determinado. Un tag puede tener de 0 a n atributos. Los valores del atributo van siempre entre comillas dobles.
  - El **[Contenido]** puede ser cualquier texto.
  - Luego del contenido, un tag siempre se cierra mediante una entrada de la forma:
 ```HTML
@@ -119,17 +119,19 @@ porque no se cierran, como por ejemplo:
 Para resolver el problema, pueden serte útiles las clases del namespace:
  ``System.Collections``
 en especial Hashtable y ArrayList. Usa la documentación de .NET Core para saber como utilizarlas ([https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=netcore-2.2](https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=netcore-2.2)) y que colaboración puedes pedir a instancias de éstas clases.
+
 # Parte 2
 En tu programa anterior, si has programado pensando en objetos, deberías estar usando múltiples clases y deberían existir varios objetos que se envían mensajes entre sí.
 Enumera las clases que se utilizan en el programa y las responsabilidades de hacer y conocer
 de cada una de ellas. Considera sólo las que son usadas en el programa.
 Entrega este trabajo como parte de la documentación de la clase Program.
+
 ##### Importante
-Recuerda que un programa debe incluir casos de prueba en xUnit y documentación fxDoc. 
+Recuerda que un programa debe incluir casos de prueba en xUnit y documentación docFX. 
 Los casos de prueba deben asegurarse de que cada método de cada clase que programaste funcione como es debido. Intenta utilizar ésto como una herramienta para trabajar menos y más seguro, y no como un requisito “burocrático”.
 ##### Reglas de colaboración
-Los ejercicios son individuales. Puedes diseñar una solución en conjunto con otros compañeros y aprovechar comentarios o correcciones de los profesores, pero debes entregar un código que tú comprendiste, escribiste, compilaste, ejecutaste y probaste. Si entregas una clase que a nuestro criterio es idéntica a la de un compañero, puedes estar en problemas.
+Los ejercicios son en equipo. Puedes diseñar una solución en conjunto con tus compañeros de equipo u otros equipos y aprovechar comentarios o correcciones de los profesores, pero todos los integrantes del equipo deben poder comprender el código entregado, compilarlo y ejecutarlo, así como las decisiones de diseño utilizadas para generar el mismo.
 #### Entregas tardías
-No se aceptarán entregas fuera de fecha. Los trabajos se entregan para que sigas constantemente el curso y no con objetivo de evaluarte, pese a que influyen en tu evaluación final en caso de que estés en riesgo de perder el curso. Un trabajo a las apuradas no tiene valor en este contexto.
+No se aceptarán entregas fuera de fecha. La consigna es la misma para todos y cumplir con las restricciones de tiempo es importante para la vida de estudiante así como para la vida profesional a futuro.
 #### Entregas por correo electrónico
 No se aceptarán entregas por correo electrónico excepto que Web Asignatura no esté disponible seis horas antes a la fecha final de entrega. La entrega por correo eletctrónico debe enviarse a todos los profesores y pedirles confirmación de entrega. Es tu responsabilidad asegurarte de que el trabajo haya sido recibido.
