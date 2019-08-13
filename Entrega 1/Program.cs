@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
 
@@ -10,7 +10,7 @@ namespace ExerciseOne
 	public static class Program
 	{
 		//variable constante con el nombre del archivo
-		const String fileName = "archivo.txt";	
+		const String fileName = @"..\..\..\test.html";	
 		/// <summary>
 		/// Punto de entrada
 		/// </summary>

@@ -85,7 +85,9 @@ Por ejemplo, si el archivo contiene:
 		</font>
 		<input type=”text” name=”nombre” maxlength=”8”/>
 		<br/>
-		<font size="2”>Máximo 8caracteres</font>
+		<font size="2”>
+			Máximo 8 caracteres
+		</font>
 	</html>
 </body>
 ```
